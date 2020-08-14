@@ -31,7 +31,7 @@ const App = () => {
       <h1 className="Header">characters</h1>
       {
         characters.map( ch => {
-          return <Character />
+          return <Character key={ch.id} character={ch}/>
         })
       }
     </div>

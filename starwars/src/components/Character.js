@@ -1,9 +1,10 @@
 import React from 'react'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 
-export default function Character() {
+export default function Character(props) {
+    const {character} = props;
 
     return(
-        <p>hello?</p>
+        <h2>{character.name}</h2>
     )
 }
