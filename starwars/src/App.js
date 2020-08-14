@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">characters</h1>
+      <h1 className="Header">Characters from the Multiverse</h1>
       <div className="container">
         {
           characters.map( ch => {
