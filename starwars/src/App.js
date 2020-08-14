@@ -29,11 +29,13 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">characters</h1>
-      {
-        characters.map( ch => {
-          return <Character key={ch.id} character={ch}/>
-        })
-      }
+      <div className="container">
+        {
+          characters.map( ch => {
+            return <Character key={ch.id} character={ch}/>
+          })
+        }
+      </div>
     </div>
   );
 }
